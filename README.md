@@ -5,3 +5,4 @@
 `q` to quit
 
 
+![Lavalamping](lavalamp.gif)
