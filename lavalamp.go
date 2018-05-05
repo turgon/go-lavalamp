@@ -66,16 +66,6 @@ loop:
 			}
 		case <-time.After(50 * time.Millisecond):
 			pos.Z = pos.Z + 1.0/float64(dimZ)
-			/*
-				switch r.Intn(3) {
-				case 0:
-					pos.X = pos.X + 1.0/float64(dimX)
-				case 1:
-					pos.Y = pos.Y + 1.0/float64(dimY)
-				case 2:
-					pos.Z = pos.Z + 1.0/float64(dimZ)
-				}
-			*/
 		}
 	}
 }
